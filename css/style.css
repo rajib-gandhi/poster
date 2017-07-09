@@ -1,0 +1,792 @@
+/*
+Template:  Bullet App
+Author: MHrock
+Version: 1.0
+Developed by: MHrock
+This file contains the styling for the actual Template.
+Please do not change anything here! write in a custom.css file if required!
+*/
+/* */
+
+/*************************
+01. top header 
+*************************/
+
+.top-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    height: 80px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.4s ease-in-out 0s;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-brand {
+    padding: 0;
+}
+
+img, iframe, object, embed {
+  max-width: 100%;
+}
+
+
+.navbar-toggle .icon-bar {
+    background-color: #835fa8;
+}
+
+
+
+.top-header.menu-bg {
+    height: 63px;
+}
+.menu-bg .navbar-nav img {
+    height: 56px;
+}
+.menu-bg .navbar-brand img {
+    height: 70px;
+}
+.menu-bg a img.logo-color {
+    margin-top: -5px;
+}
+
+
+
+
+
+.navbar-brand img {
+    transition: height 0.4s ease-in-out 0s;
+    width: 70px;
+}
+.main-menu .navbar-nav li a {
+    color: #835fa8;
+    font-size: 18px;
+    padding: 30px 15px;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out 0s;
+}
+.main-menu .navbar-nav li a:hover, .main-menu .navbar-nav li a.active {
+    background-color: #835fa8;
+    color: #fff;
+}
+
+.navbar-brand > img {
+  height: 80px;
+  transition: height 0.4s ease-in-out 0s;
+}
+
+.menu-bg .main-menu .navbar-nav li a {
+  padding: 22px 15px;
+}
+
+
+.navbar-toggle.collapsed .icon-bar {
+    background-color: #7e59a5;
+}
+.navbar-toggle.collapsed .bottom-bar {
+    transform: rotate(0deg);
+}
+.navbar-toggle {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+}
+
+
+
+
+.header-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
+.pt-120{
+	padding-top:120px
+}
+.pb-80{
+	padding-bottom:80px
+}
+.pb-120{
+	padding-bottom:120px
+}
+.search-section li {
+  display: inline-block;
+  float: left;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-left: 15px;
+}
+
+.search-section .dollar {
+  margin-top: 10px;
+}
+
+.search-section form {
+  position: relative;
+  width: 100%;
+}
+.search-section li input {
+  background: #343c48 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50px;
+  color: #b2b2b2;
+  height: 40px;
+  padding: 10px 60px 10px 20px;
+}
+
+
+.form-group span {
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+
+.form-group .sr-only {
+    font-size: 0;
+    text-indent: -99999px;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+.search-section input:focus {
+  border: medium none;
+}
+
+
+.search-section button {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  bottom: 0;
+  color: #b2b2b2;
+  float: right;
+  padding-right: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.search-section li a {
+  background: #835fa8 none repeat scroll 0 0;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px;
+ text-decoration: none;
+}
+
+.search-section {
+    margin-top: 30px;
+}
+
+/*************************
+02. welcome-area 
+*************************/
+
+
+.hm-area.wimg-1{
+	background-image:url("../images/slider.jpg")
+}
+
+
+
+.hm-area.wimg-1 {
+    background-position: center 81px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+.header-1.hero-content h2 {
+}
+
+.hm-caption {
+  margin-top: 254px;
+}
+.hm-area .hm-content h2 {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 45px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+.hm-area .hm-content p {
+    color: #000;
+    font-size: 16px;
+	text-shadow:0 0 1px #fff;
+}
+
+.hm-content .hm-caption span{
+	color: #ffffff;
+}
+
+
+/*************************
+03. about 
+*************************/
+.banner{
+	background-color:#835FA8;
+	color:#fff;
+	position:relative;
+	 padding: 70px 0 271px;
+}
+
+.banner h2 {
+  font-size: 40px;
+}
+
+.social-connect ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.social-connect ul li {
+    display: inline-block;
+}
+
+
+
+.social-connect {
+    position: relative;
+}
+.ad-frame-one {
+    left: 0;
+    position: absolute;
+    top: 140px;
+    z-index: 2;
+}
+.ad-frame-two {
+    left: 41%;
+    position: absolute;
+    top: -194px;
+    z-index: 2;
+}
+
+
+/*************************
+03. feature section 
+*************************/
+
+.feature .text-center h2 {
+  color: #535353;
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-weight:700;
+}
+
+.feature {
+  background: #fff none repeat scroll 0 0;
+  padding: 70px 0;
+  position: relative;
+  z-index: 2;
+  top:-47px;
+}
+
+.feature .about_btn a {
+  margin-top: 20px;
+}
+
+.feature h3, .service-content h3 {
+  color: #aeb3bb;
+  font-family: openSans Light;
+  font-size: 21px;
+  font-weight: normal;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.feature p,.service-content p {
+    color: #70747a;
+    line-height: 24px;
+}
+
+
+
+.banner .about_text a, .about_btn a {
+    background: #3dd2ae none repeat scroll 0 0;
+    border-radius: 25px;
+    color: #fff;
+    padding: 10px 30px;
+	text-decoration:none;
+	display:inline-block;
+}
+.about_text p {
+    margin-bottom: 37px;
+}
+
+
+
+/*************************
+04. Gallery section 
+*************************/
+.gallery {
+    background-color: #232831;
+    padding-top: 90px;
+}
+.gallery.gallery-text h2 {
+    color: #333;
+}
+.gallery .gallery-text h2 {
+    color: #fff;
+    text-align: center;
+}
+.gallery.gallery-text p {
+    color: #808893;
+}
+.gallery .gallery-text p {
+    color: #808893;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+.single-gallery img {
+    background-position: 61% 102%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-left: 175px;
+    position: relative;
+    text-align: center;
+    width: 70%;
+}
+.gallery-list {
+    position: relative;
+}
+
+
+.gallery-item {
+  position: relative;
+}
+
+
+.owl-theme .gallery-image img {
+    position: relative;
+}
+.owl-theme .gallery-item a {
+  background: transparent none repeat scroll 0 0;
+  border-bottom: 4px solid #686666;
+  border-color:#fff;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  height: 59px;
+  left: 475px;
+  padding-top: 12px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 86px;
+  width: 170px;
+}
+
+#gallery .owl-theme .owl-dots [class^="owl-"], #gallery .owl-theme .owl-dots [class="owl-"]{background: transparent none repeat scroll 0 0;
+bottom: 0;
+color: #1391a6;
+display: inline-block;
+font-size: 22px;
+height: 30px;
+left: 0;
+line-height: 30px;
+margin-right: 10px;
+padding-top: 8px;
+top: 0;
+}
+
+.owl-theme .owl-dots {
+  background-color: #333;
+  position: absolute;
+  top: -34px;
+  width: 100%;
+}
+
+
+.owl-theme .owl-dots .owl-dot span {
+  margin: 5px;
+}
+
+
+.slide .carousel-control.left {
+    background-image: none;
+}
+.slide .carousel-control.right {
+    background-image: none;
+}
+
+.slide .carousel-control {
+    height: 0;
+    width: 0;
+}
+
+/*************************
+05. testimonial Section 
+*************************/
+
+.testimonial {
+  background-color: #2b303b;
+  margin-top: -11px;
+  padding: 100px 0;
+}
+.testimonial-content p {
+  color: #808893;
+  line-height: 24px;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+
+.testimonial h2 {
+    color: #fff;
+    display: inline-block;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.testimonial p {
+    color: #aeb3bb;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.testimonial-content h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.testimonial-content span {
+    color: #3a4d60;
+    font-size: 18px;
+}
+
+.conect-watch img {
+  max-width: 100%;
+}
+
+
+.conect-watch {
+  margin-left: 15px;
+  width: 100%;
+}
+
+.connectivity {
+  background-color: #e9eef1;
+  display: block;
+  position: absolute;
+}
+
+
+.connect-image img {
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    position: relative;
+}
+.connect-image > h3 {
+    font-weight: 700;
+    margin: 0;
+    padding-top: 18px;
+}
+.service-content {
+    margin-top: 30px;
+    overflow: hidden;
+}
+.service-text {
+    margin-left: 87px;
+    margin-right: 66px;
+}
+.service-content > h3 {
+    font-size: 23px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+/* END TESTIMONIAL AREA */
+
+
+/*************************
+06. pricing Section 
+*************************/
+
+
+.pricing-bg {
+  background-color: #835FA8;
+}
+
+
+.ptb-100 {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.pricing-title.text-center h2 {
+    color: #fff;
+    display: inline-block;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.pricing-title.text-center p {
+    color: #aeb3bb;
+    line-height: 26px;
+    padding: 0 200px;
+}
+.pricing-title, .team-title, .contact-title {
+    margin-bottom: 50px;
+}
+.single-pricing-item {
+    box-shadow: 0 5px 31px rgba(0, 0, 0, 0.2);
+    color: #eeeeee;
+    padding: 45px 20px;
+}
+
+.pricing-header span.number {
+  font-size: 50px;
+}
+
+.pricing-title h2 {
+  color: #fff;
+}
+
+.single-pricing-item h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.single-pricing-item ul {
+    font-weight: 600;
+    list-style: outside none none;
+    margin: 10px 0 25px;
+    padding: 0;
+    text-transform: capitalize;
+}
+.single-pricing-item ul li {
+    padding: 5px 0;
+}
+.single-pricing-item h3, .pricing-footer .pricing-btn {
+    background-color: #3DD2AE;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+	border-radius:4px
+}
+
+.pricing-footer a {
+  color: #fff;
+}
+
+/*************************
+07. Team Section 
+*************************/
+
+
+.single-my-team img {
+  border-radius: 2px;
+  height: auto;
+  width: 100%;
+}
+
+
+.team-wrap {
+    background: #835FA8 none repeat scroll 0 0;
+    padding: 20px 15px;
+    text-align: center;
+}
+.team-wrap > h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px 0;
+}
+.team-wrap > a {
+    color: #a3a3a3;
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+}
+.team-wrap ul {
+    list-style: outside none none;
+    margin:0;
+    padding: 10px 0 0;
+}
+.team-wrap ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+.team-wrap ul li a {
+    color: #535353;
+    font-size: 19px;
+}
+
+/*************************
+08.  Counter section  
+*************************/
+
+.count-bg {
+  background-image: url("../images/count-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+
+.single-counter {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.count-bg::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.single-counter h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.single-counter {
+  margin-bottom: 35px;
+}
+.single-counter h2::after {
+    background-color: #2ecc71;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 20%;
+}
+
+/*************************
+09.  Contact section  
+*************************/
+
+
+.contact-us-area {
+  background-color: #a78cc1;
+}
+
+
+.contact-us-area .contact-title {
+    margin-bottom: 50px;
+}
+.contact-us-area .form-group {
+    margin-bottom: 20px;
+}
+.contact-us-area .form-control {
+    background-color: #f1f1f1;
+    border: medium none;
+    border-radius: 0;
+    color: #999999;
+    display: block;
+    font-size: 14px;
+    height: 55px;
+    line-height: 1.42857;
+    padding: 6px 25px;
+    width: 100%;
+}
+.btn-primary {
+    background-color: #3DD2AE;
+    border-color: #3DD2AE;
+    border-radius: 0;
+    margin-top: 25px;
+    padding: 5px 25px;
+}
+
+.btn.btn-primary:focus {
+  background: #3dd2ae none repeat scroll 0 0;
+  border-color: #3dd2ae;
+  color: #fff;
+}
+
+
+.btn-primary:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #204d74;
+}
+
+.gallery-text span, .pricing-title span, .my-team span, .contact-title span, .testimonial span, .feature .text-center span{
+  color: #3dd2ae;
+  font-weight: 700;
+}
+
+
+/*************************
+10.  Footer section  
+*************************/
+
+
+ul.social-link {
+    list-style: outside none none;
+    margin: 0;
+    padding: 28px 0 12px;
+}
+ul.social-link li {
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 10px;
+    padding: 8px;
+}
+ul.social-link li a {
+    color: #000;
+    font-size: 19px;
+}
+.copyright-text.text-center p {
+    color: #a3a3a3;
+}
+.footer {
+    background-color: #535353;
+}
+
+
+
+.scrollup {
+  background-color:rgba(0, 0, 0, 0.3);
+  border-right: 5px none;
+  bottom: 40px;
+  color: #fff;
+  display: none;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  position: fixed;
+  right: 22px;
+  text-align: center;
+  width: 40px;
+  z-index: 999;
+}
+.scrollup:hover {
+    background-color:#835fa8 ;
+	color: #fff;
+    text-decoration: none;
+}
+/* End scrollup */
